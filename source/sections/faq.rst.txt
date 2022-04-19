@@ -1,9 +1,6 @@
 よくある質問
 =========================================================
 
-.. _Python Boot Camp 運営マニュアル: http://bootcamp-text.readthedocs.io/organize/1_manual.html
-.. _connpass: https://connpass.com/
-
 参加したいけど実際にどんなことを教わるの？
 ---------------------------------------------------------
 

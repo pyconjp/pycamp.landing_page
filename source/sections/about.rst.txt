@@ -1,11 +1,6 @@
 Python Boot Campとは？
 =========================================================
 
-.. _Python Boot Camp: https://www.pycon.jp/support/bootcamp.html
-.. _PyCon JPブログ: http://pyconjp.blogspot.jp/
-.. _Python Boot Campテキスト: http://bootcamp-text.readthedocs.io/textbook/index.html
-.. _運営マニュアル: http://bootcamp-text.readthedocs.io/organize/1_manual.html
-
 PyCon JPではこれまでも年に１回東京で開催されるPyCon JPイベントでPythonを学べるチュートリアル講座を開催してきました。
 今回は、以下のような人たちにPythonを知ってもらえる機会を提供できたらという思いで、`Python Boot Camp`_ （略してPyCamp）を企画しました。
 
