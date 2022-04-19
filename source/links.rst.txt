@@ -1,0 +1,9 @@
+.. リンクをここにまとめる
+
+.. _Python Boot Camp: https://www.pycon.jp/support/bootcamp.html
+.. _PyCon JPブログ: http://pyconjp.blogspot.jp/
+.. _Python Boot Campテキスト: http://bootcamp-text.readthedocs.io/textbook/index.html
+.. _運営マニュアル: http://bootcamp-text.readthedocs.io/organize/1_manual.html
+.. _Python Boot Camp 運営マニュアル: http://bootcamp-text.readthedocs.io/organize/1_manual.html
+.. _connpass: https://connpass.com/
+.. _一般社団法人PyCon JP メディアスポンサー: https://www.pycon.jp/sponsor/media.html
