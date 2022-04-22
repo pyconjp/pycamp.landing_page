@@ -1,0 +1,21 @@
+.. _React，Angular，Vue.js，React Nativeを使って学ぶ はじめてのフロントエンド開発（2018 技術評論社刊）: https://gihyo.jp/book/2018/978-4-7741-9706-7
+
+.. figure:: _static/profiles/massa.png
+
+.. raw:: html
+
+    <h3 class="text-center">Masataka Arai</h3>
+
+東京大学文学部卒業、アライドアーキテクツ株式会社にて勤務。
+2016年4月、株式会社SQUEEZEに入社。
+コミュニティ活動として、PyCon JP 2015〜 2019 スタッフ、DjangoCongress JP 2018〜 スタッフ、Pythonもくもく会の主催など。
+趣味はラクロスとPerfume。
+
+**主な著書**
+
+* `React，Angular，Vue.js，React Nativeを使って学ぶ はじめてのフロントエンド開発（2018 技術評論社刊）`_
+
+**ブログ・SNSのリンク**
+
+* `Twitter <https://twitter.com/massa142>`_
+* `Blog <https://massa142.hatenablog.com/>`_
