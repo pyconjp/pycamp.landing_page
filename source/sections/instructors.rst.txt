@@ -1,0 +1,18 @@
+講師プロフィール
+=========================================================
+
+.. panels::
+
+    .. include:: sections/profiles/shimizukawa.rst.txt
+
+    ---
+
+    .. include:: sections/profiles/takanory.rst.txt
+
+    ---
+
+    .. include:: sections/profiles/terapyon.rst.txt
+
+    ---
+
+    .. include:: sections/profiles/massa.rst.txt
