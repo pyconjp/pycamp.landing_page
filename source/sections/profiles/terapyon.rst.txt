@@ -1,0 +1,25 @@
+.. _機械学習図鑑(共著): https://www.shoeisha.co.jp/book/detail/9784798155654
+.. _Pythonによるあたらしいデータ分析の教科書(共著): https://www.shoeisha.co.jp/book/detail/9784798158341
+.. _スラスラわかるPython(監修): http://www.shoeisha.co.jp/book/detail/9784798151090
+.. _Pythonハッカーガイドブック(監訳): https://book.mynavi.jp/ec/products/detail/id=115482
+
+.. figure:: _static/profiles/terapyon.png
+
+.. raw:: html
+
+    <h3 class="text-center">Manabu TERADA</h3>
+
+Python Web関係の業務を中心にコンサルティングや構築を(株)CMSコミュニケーションズ代表取締役として手がけている。
+一般社団法人PyCon JP Association 代表理事、一般社団法人Pythonエンジニア育成推進協会顧問理事など
+
+**主な著書**
+
+* `機械学習図鑑(共著)`_
+* `Pythonによるあたらしいデータ分析の教科書(共著)`_
+* `スラスラわかるPython(監修)`_
+* `Pythonハッカーガイドブック(監訳)`_
+
+**ブログ・SNSのリンク**
+
+* `Twitter <https://twitter.com/terapyon>`_
+* `Podcast <https://podcast.terapyon.net/>`_
