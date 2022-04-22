@@ -1,0 +1,30 @@
+.. _必修編: https://gihyo.jp/book/2020/978-4-297-11570-8
+.. _実践編: https://gihyo.jp/book/2020/978-4-297-11572-2
+.. _いちばんやさしいPythonの教本 第2版 （2020 インプレス刊）: https://book.impress.co.jp/books/1119101162
+.. _いちばんやさしいPython機械学習の教本 （2019 インプレス刊）: https://book.impress.co.jp/books/1118101072
+.. _Pythonによるあたらしいデータ分析の教科書 （2018 翔泳社刊）: https://www.shoeisha.co.jp/book/detail/9784798158341
+.. _Pythonプロフェッショナルプログラミング 第3版 （2018 秀和システム刊）: https://www.shuwasystem.co.jp/book/9784798053820.html
+.. _Pythonエンジニア ファーストブック （2017 技術評論社刊）: https://gihyo.jp/book/2017/978-4-7741-9222-2
+
+.. figure:: _static/profiles/takanory.jpg
+
+.. raw:: html
+
+    <h3 class="text-center">Takanori Suzuki</h3>
+
+| 一般社団法人PyCon JP Association 副代表理事/(株)ビープラウド 所属。
+| 部内のサイトを作るためにZope/Ploneと出会い、その後必要にかられてPythonを使い始める。PyCon JPでは2011年1月のPyCon mini JPからスタッフとして活動し、2014年-2016年のPyCon JP座長。 他の主な活動は、 Pythonボルダリング部(#kabepy) 部長、 Python mini Hack-a-thon(#pyhack) 主催など。
+
+**主な著書**
+
+* 最短距離でゼロからしっかり学ぶPython入門 (`必修編`_・`実践編`_) （2020 技術評論社刊）
+* `いちばんやさしいPythonの教本 第2版 （2020 インプレス刊）`_
+* `いちばんやさしいPython機械学習の教本 （2019 インプレス刊）`_
+* `Pythonによるあたらしいデータ分析の教科書 （2018 翔泳社刊）`_
+* `Pythonプロフェッショナルプログラミング 第3版 （2018 秀和システム刊）`_
+* `Pythonエンジニア ファーストブック （2017 技術評論社刊）`_
+
+**ブログ・SNSのリンク**
+
+* `Twitter <https://twitter.com/takanory>`_
+* `Facebook <https://www.facebook.com/takanory.net>`_
