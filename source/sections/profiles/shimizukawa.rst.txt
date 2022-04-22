@@ -1,0 +1,27 @@
+.. _自走プログラマー（2020, 技術評論社）: https://gihyo.jp/book/2020/978-4-297-11197-7
+.. _Pythonプロフェッショナルプログラミング第3版（2018, 秀和システム）: https://www.shuwasystem.co.jp/book/9784798053820.html
+.. _エキスパートPythonプログラミング 改訂2版（2018, KADOKAWA/アスキー・メディアワークス）: https://www.kadokawa.co.jp/product/301801000262/
+.. _Sphinxをはじめよう（2017, O'Reilly Japan）: https://www.oreilly.co.jp/books/9784873118192/
+.. _http://清水川.jp/: http://清水川.jp/
+
+.. figure:: _static/profiles/shimizukawa.jpg
+
+.. raw:: html
+
+    <h3 class="text-center">Takayuki Shimizukawa</h3>
+
+| 一般社団法人PyCon JP Association 会計理事 / (株)ビープラウド所属 / Sphinxコミッター。
+| 2003年にZope2と出会い, それがPython関連のOSSコミュニティーで活動を始めるきっかけとなった。2011年のPyCon JP立ち上げ以降スタッフや理事としてPyCon JP運営に関わっている。
+| 最近は、公私ともにPythonを教える立場で多く活動している。
+
+**主な著書**
+
+* `自走プログラマー（2020, 技術評論社）`_
+* `Pythonプロフェッショナルプログラミング第3版（2018, 秀和システム）`_
+* `エキスパートPythonプログラミング 改訂2版（2018, KADOKAWA/アスキー・メディアワークス）`_
+* `Sphinxをはじめよう（2017, O'Reilly Japan）`_
+
+**ブログ・SNSのリンク**
+
+* http://about.me/shimizukawa
+* `http://清水川.jp/`_
