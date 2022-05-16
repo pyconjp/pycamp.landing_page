@@ -4,7 +4,7 @@
 
 .. raw:: html
 
-    <h3 class="text-center">Masataka Arai</h3>
+    <h3 class="sd-text-center">Masataka Arai</h3>
 
 東京大学文学部卒業、アライドアーキテクツ株式会社にて勤務。
 2016年4月、株式会社SQUEEZEに入社。
