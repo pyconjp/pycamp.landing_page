@@ -1,0 +1,10 @@
+.. grid-item-card:: `mursts <https://twitter.com/mursts>`_
+    :img-top: _static/impressions/mursts.jpg
+    :class-header: sd-text-center
+    :class-title: sd-text-center sd-fs-3
+
+    現地スタッフ
+    ^^^
+    当日は、講師・コアスタッフ・TAの協力もあり素晴らしいイベントになりました。
+    運営スタッフの仕事はマニュアルがありタスク化してあるので、それにそって準備をするだけで特に大変だということはありませんでした。
+    自分の地域でもやってみたいという方は運営スタッフとして応募してはいかがでしょうか。
