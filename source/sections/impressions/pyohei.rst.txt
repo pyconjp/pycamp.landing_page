@@ -1,7 +1,7 @@
 .. grid-item-card:: `@pyohei <https://github.com/pyohei>`_
     :img-top: _static/impressions/pyohei.jpg
-    :class-card: sd-text-center
-    :class-title: sd-fs-3
+    :class-header: sd-text-center
+    :class-title: sd-text-center sd-fs-3
 
     運営スタッフ
     ^^^

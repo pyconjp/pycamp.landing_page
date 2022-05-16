@@ -1,7 +1,7 @@
 .. grid-item-card:: `Youhei Sakurai <https://github.com/sakurai-youhei>`_
     :img-top: _static/impressions/YouheiSakurai.jpg
-    :class-card: sd-text-center
-    :class-title: sd-fs-3
+    :class-header: sd-text-center
+    :class-title: sd-text-center sd-fs-3
 
     TA
     ^^^

@@ -1,7 +1,7 @@
 .. grid-item-card:: `@max747 <https://twitter.com/max747>`_
     :img-top: _static/impressions/max747.jpg
-    :class-card: sd-text-center
-    :class-title: sd-fs-3
+    :class-header: sd-text-center
+    :class-title: sd-text-center sd-fs-3
 
     TA
     ^^^
