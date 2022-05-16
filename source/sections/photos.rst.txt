@@ -1,34 +1,36 @@
 開催中の写真
 =========================================================
 
-.. panels::
+.. grid:: 1 1 2 2
 
-    .. figure:: _static/photos/lecture.jpg
+    .. grid-item-card::
 
-    .. raw:: html
+        .. figure:: _static/photos/lecture.jpg
 
-        <h3 class="text-center">講師とTAがしっかり教えます</h3>
-    
-    ---
+        .. raw:: html
 
-    .. figure:: _static/photos/sweets.jpg
-    
-    .. raw:: html
+            <h3 class="sd-text-center">講師とTAがしっかり教えます</h3>
 
-        <h3 class="text-center">おやつもあります</h3>
+    .. grid-item-card::
 
-    ---
+        .. figure:: _static/photos/sweets.jpg
 
-    .. figure:: _static/photos/cheers.jpg
+        .. raw:: html
 
-    .. raw:: html
+            <h3 class="sd-text-center">おやつもあります</h3>
 
-        <h3 class="text-center">開催後は懇親会！</h3>
-    
-    ---
+    .. grid-item-card::
 
-    .. figure:: _static/photos/memory.jpg
+        .. figure:: _static/photos/cheers.jpg
 
-    .. raw:: html
+        .. raw:: html
 
-        <h3 class="text-center">みんなで記念撮影</h3>
+            <h3 class="sd-text-center">開催後は懇親会！</h3>
+
+    .. grid-item-card::
+
+        .. figure:: _static/photos/memory.jpg
+
+        .. raw:: html
+
+            <h3 class="sd-text-center">みんなで記念撮影</h3>
