@@ -1,0 +1,3 @@
+.. grid-item-card:: COMING SOON!
+    :img-top: _static/impressions/coming_soon.png
+    :class-title: sd-text-center sd-fs-3
