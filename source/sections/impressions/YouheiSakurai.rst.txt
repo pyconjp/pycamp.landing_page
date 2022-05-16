@@ -1,0 +1,9 @@
+.. grid-item-card:: `Youhei Sakurai <https://github.com/sakurai-youhei>`_
+    :img-top: _static/impressions/YouheiSakurai.jpg
+    :class-card: sd-text-center
+    :class-title: sd-fs-3
+
+    TA
+    ^^^
+    Python Boot Campに参加することは、まず第一に自分のPython力を振り返る良いきっかけになります。
+    また、日本のPythonコミュニティの運営話を聞いたり、これからPythonを学んでいく方々と交流したりと、Pythonに関するメタな情報に触れられる点も魅力の一つだと思います。
