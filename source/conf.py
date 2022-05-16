@@ -29,7 +29,7 @@ author = 'PyCon JP Committee'
 # ones.
 extensions = [
     'sphinx.ext.githubpages',
-    "sphinx_panels",
+    "sphinx_design",
 ]
 
 # Add any paths that contain templates here, relative to this directory.
