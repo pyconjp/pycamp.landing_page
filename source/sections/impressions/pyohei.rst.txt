@@ -1,14 +1,9 @@
-運営スタッフ
+.. grid-item-card:: `@pyohei <https://github.com/pyohei>`_
+    :img-top: _static/impressions/pyohei.jpg
+    :class-card: sd-text-center
+    :class-title: sd-fs-3
 
-++++++++++++++++++++
-
-.. figure:: _static/impressions/pyohei.jpg
-
-.. raw:: html
-
-    <h3 class="text-center">
-      <a href="https://github.com/pyohei">@pyohei</a>
-    </h3>
-
-運営スタッフとしてPythonを学ぶ方たちのサポートができ、やりがいと充実感を感じました。
-講師やTA、コアスタッフの方とも気さくに話せ、準備から楽しく過ごすことができ、また参加したいです！
+    運営スタッフ
+    ^^^
+    運営スタッフとしてPythonを学ぶ方たちのサポートができ、やりがいと充実感を感じました。
+    講師やTA、コアスタッフの方とも気さくに話せ、準備から楽しく過ごすことができ、また参加したいです！
