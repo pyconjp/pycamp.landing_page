@@ -1,0 +1,10 @@
+.. grid-item-card:: `@horobi_gengar <https://twitter.com/horobi_gengar>`_
+    :img-top: _static/impressions/horobi_gengar.png
+    :class-header: sd-text-center
+    :class-title: sd-text-center sd-fs-3
+
+    講師
+    ^^^
+    | フォーム経由で申し込み、初版のテキスト作成と初回講師を行いました。
+    | 初回ということもあり、ぎりぎりまで参加者が増えず、不安でしたが、
+    | 現地スタッフの方々の補助もあり、何とかやりきれました。
