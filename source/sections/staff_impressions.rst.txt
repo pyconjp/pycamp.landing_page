@@ -1,0 +1,22 @@
+過去回運営メンバーの感想
+=========================================================
+
+.. grid:: 1 1 2 3
+
+    .. include:: sections/impressions/pyohei.rst.txt
+
+    .. include:: sections/impressions/npmyj.rst.txt
+
+    .. include:: sections/impressions/max747.rst.txt
+
+    .. include:: sections/impressions/YouheiSakurai.rst.txt
+
+    .. include:: sections/impressions/horobi_gengar.rst.txt
+
+    .. include:: sections/impressions/koty.rst.txt
+
+    .. include:: sections/impressions/mursts.rst.txt
+
+    .. include:: sections/impressions/coming_soon.rst.txt
+
+    .. include:: sections/impressions/coming_soon.rst.txt
