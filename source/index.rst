@@ -11,6 +11,14 @@ Python Boot Campで全国にPythonの環を広げよう！ #pycamp
 
 .. include:: sections/about.rst.txt
 
+.. include:: sections/members.rst.txt
+
+.. include:: sections/staff_impressions.rst.txt
+
+.. include:: sections/instructors.rst.txt
+
+.. include:: sections/photos.rst.txt
+
 .. include:: sections/faq.rst.txt
 
 .. include:: sections/participants.rst.txt
