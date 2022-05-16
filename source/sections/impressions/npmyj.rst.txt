@@ -1,0 +1,9 @@
+.. grid-item-card:: `@npmyj <https://www.netplan.co.jp/>`_
+    :img-top: _static/impressions/npmyj.jpg
+    :class-card: sd-text-center
+    :class-title: sd-fs-3
+
+    運営スタッフ
+    ^^^
+    数年前からPythonに興味を持ち勉強を始めたものの、身近にPythonを使っている人があまりいなくて様子がわからず、ちょうど良い機会と思いPython Boot Campの現地スタッフとして手を挙げてみました。
+    初心者が大半でしたが、丁寧な説明により全員が最後まで手を動かして学ぶことができました。
