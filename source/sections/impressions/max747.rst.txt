@@ -1,0 +1,9 @@
+.. grid-item-card:: `@max747 <https://twitter.com/max747>`_
+    :img-top: _static/impressions/max747.jpg
+    :class-card: sd-text-center
+    :class-title: sd-fs-3
+
+    TA
+    ^^^
+    Python入門といってもその幅は広く、他言語の経験がある方もいればプログラミングが初めての方もいます。
+    Boot Campでは経験の少ない方をTAが手厚くサポートしますので、安心して参加できます。
