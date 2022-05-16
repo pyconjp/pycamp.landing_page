@@ -1,0 +1,10 @@
+.. grid-item-card:: `@koty <https://twitter.com/koty>`_
+    :img-top: _static/impressions/koty.jpg
+    :class-header: sd-text-center
+    :class-title: sd-text-center sd-fs-3
+
+    TA
+    ^^^
+    27名と多数の方に参加いただき、TA＆現地スタッフ5名体制でサポートしました。
+    おおむね参加者には満足してもらったようで良かったです。
+    講師のお話は私達TAが聞いていても大変勉強になりました。
