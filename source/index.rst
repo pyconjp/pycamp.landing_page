@@ -7,6 +7,8 @@
 Python Boot Campで全国にPythonの環を広げよう！ #pycamp
 =========================================================
 
+.. attention:: このページは、Python Boot Campのランディングページを **移行中** です（現在ベータ版リリース）
+
 .. include:: links.rst.txt
 
 .. figure:: _static/cover.png
