@@ -31,6 +31,7 @@ extensions = [
     'sphinx.ext.githubpages',
     "sphinx_design",
     "add_attributes",
+    "event_history",
 ]
 
 # Add any paths that contain templates here, relative to this directory.
