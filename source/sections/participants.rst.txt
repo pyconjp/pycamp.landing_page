@@ -6,5 +6,3 @@
 .. event-history-csv-table::
    :header-rows: 1
    :file: participants_count.csv
-
-.. TODO: CSVに列を追加する
