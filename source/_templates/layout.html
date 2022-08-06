@@ -1,5 +1,16 @@
 {% extends '!layout.html' %}
 
+{% block extrahead %}
+  {{ super() }}
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@pyconjapan">
+  <meta property="og:url" content="https://pyconjp.github.io/pycamp.landing_page/">
+  <meta property="og:title" content="Python Boot Campで全国にPythonの環を広げよう！ #pycamp">
+  <meta property="og:description" content="Pythonのチュートリアルを全国で開催するイベント「Python Boot Camp」について分かりやすく解説したページです。Pythonを学びたいけどなかなか始められない人、ぜひチェックしてください！">
+  <meta property="og:image" content="https://pyconjp.github.io/pycamp.landing_page/_static/cover.png">
+{% endblock extrahead %}
+
 {% block footer %}
   <div class="footer">
     {% if show_copyright %}&copy;{{ copyright }}.{% endif %}
