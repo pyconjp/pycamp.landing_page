@@ -3,6 +3,10 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
+.. meta::
+   :description: Pythonのチュートリアルを全国で開催するイベント「Python Boot Camp」について分かりやすく解説したページです。Pythonを学びたいけどなかなか始められない人、ぜひチェックしてください！
+   :keywords: Python Boot Camp, pycamp, Python ブートキャンプ, Python チュートリアル, 一般社団法人PyCon JP Association
+
 =========================================================
 Python Boot Campで全国にPythonの環を広げよう！ #pycamp
 =========================================================
