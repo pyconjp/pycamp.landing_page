@@ -65,6 +65,8 @@ html_theme_options = {
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
 
+html_title = "Python Boot Campで全国にPythonの環を広げよう！ #pycamp"
+
 html_favicon = "_static/favicon.png"
 
 # -- Extension configuration -------------------------------------------------
