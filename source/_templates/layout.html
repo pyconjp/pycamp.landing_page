@@ -1,5 +1,9 @@
 {% extends '!layout.html' %}
 
+{%- block htmltitle %}
+    <title>{{ docstitle }}</title>
+{%- endblock %}
+
 {% block extrahead %}
   {{ super() }}
 
