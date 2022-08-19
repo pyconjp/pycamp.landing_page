@@ -21,10 +21,15 @@ jobs:
           pip install -r requirements.in
       - name: Build document
         run: |
-          make html
-          rm -r build/html/_sources
+          make singlehtml
+      - name: Remove redundant files
+        run: |
+          cd build/singlehtml
+          rm .buildinfo objects.inv
+          cd _static
+          rm -r cover.png impressions/ photos/ profiles/
       - name: Publish on GitHub Pages
         uses: ftnext/action-push-ghpages@v1.0.0
         with:
-          build_dir: build/html
+          build_dir: build/singlehtml
           github_token: ${{ secrets.GITHUB_TOKEN }}
