@@ -7,6 +7,8 @@
    :description: Pythonのチュートリアルを全国で開催するイベント「Python Boot Camp」について分かりやすく解説したページです。Pythonを学びたいけどなかなか始められない人、ぜひチェックしてください！
    :keywords: Python Boot Camp, pycamp, Python ブートキャンプ, Python チュートリアル, 一般社団法人PyCon JP Association
 
+.. include:: share_buttons.rst.txt
+
 =========================================================
 Python Boot Campで全国にPythonの環を広げよう！ #pycamp
 =========================================================

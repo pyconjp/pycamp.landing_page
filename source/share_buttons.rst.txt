@@ -1,0 +1,9 @@
+.. raw:: html
+
+    <div id="buttons-row" style="height: 10vh; display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 32px;">
+      <div id="buttons-container" style="display: flex; flex-wrap: wrap; justify-content: flex-start; align-items: center; gap: 16px;">
+        <!-- <a>Twitter</a> -->
+        <!-- <a>はてブ</a> -->
+        <!-- <a>Facebook</a> -->
+      </div>
+    </div>
