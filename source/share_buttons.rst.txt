@@ -3,7 +3,7 @@
     <div id="buttons-row" style="height: 10vh; display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 32px;">
       <div id="buttons-container" style="display: flex; flex-wrap: wrap; justify-content: flex-start; align-items: center; gap: 16px;">
         <!-- <a>Twitter</a> -->
-        <!-- <a>はてブ</a> -->
+        <a href="https://b.hatena.ne.jp/entry/s/pyconjp.github.io/pycamp.landing_page/" class="hatena-bookmark-button" data-hatena-bookmark-layout="vertical-normal" data-hatena-bookmark-lang="ja" title="このエントリーをはてなブックマークに追加"><img src="https://b.st-hatena.com/images/v4/public/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a><script type="text/javascript" src="https://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script>
         <!-- <a>Facebook</a> -->
       </div>
     </div>
