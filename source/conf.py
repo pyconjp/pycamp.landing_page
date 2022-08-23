@@ -58,6 +58,7 @@ exclude_patterns = []
 html_theme = 'alabaster'
 html_theme_options = {
     "nosidebar": True,
+    "font_family": "sans-serif",
 }
 
 # Add any paths that contain custom static files (such as style sheets) here,
