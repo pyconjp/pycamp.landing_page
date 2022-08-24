@@ -10,7 +10,7 @@ $ python3.10 -m venv venv --upgrade-deps
 $ source venv/bin/activate
 (venv) $ pip install -r requirements.in
 
-(venv) $ make html
+(venv) $ make singlehtml
 ```
 
 ### メモ：プロジェクト作成（手元では実行不要）
