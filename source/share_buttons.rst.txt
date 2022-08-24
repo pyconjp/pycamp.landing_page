@@ -2,8 +2,11 @@
 
     <div id="buttons-row" style="height: 10vh; display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 32px;">
       <div id="buttons-container" style="display: flex; flex-wrap: wrap; justify-content: flex-start; align-items: center; gap: 16px;">
+        <!-- TODO: Facebookいいねボタンを以下に設置 https://github.com/pyconjp/pycamp.landing_page/issues/23 -->
+        <!-- <a>Facebook いいね</a> -->
+        <!-- TODO: Facebookシェアボタンを以下に設置 https://github.com/pyconjp/pycamp.landing_page/issues/24 -->
+        <!-- <a>Facebook シェア</a> -->
         <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-text="Python Boot Campで全国にPythonの環を広げよう！" data-url="https://pyconjp.github.io/pycamp.landing_page/" data-hashtags="pycamp" data-lang="ja" data-dnt="true" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
         <a href="https://b.hatena.ne.jp/entry/s/pyconjp.github.io/pycamp.landing_page/" class="hatena-bookmark-button" data-hatena-bookmark-layout="vertical-normal" data-hatena-bookmark-lang="ja" title="このエントリーをはてなブックマークに追加"><img src="https://b.st-hatena.com/images/v4/public/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a><script type="text/javascript" src="https://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script>
-        <!-- <a>Facebook</a> -->
       </div>
     </div>
