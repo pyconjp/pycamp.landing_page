@@ -20,7 +20,6 @@ PyCon JPではこれまでも年に１回東京で開催されるPyCon JPイベ�
 
 .. button-link:: https://docs.google.com/forms/d/1IANh21fievi_lyyQyL8II66RSxlVuHBdAhr05C1qv9c/viewform
     :align: center
-    :color: primary
     :class: sd-rounded-pill sd-px-4
 
     問い合わせる
