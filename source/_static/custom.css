@@ -2,3 +2,8 @@
   background-color: #1cbbd0;
   color: #fff;
 }
+
+.sd-btn:hover, .sd-btn:focus {
+  background-color: #19a7ba;
+  opacity: .8;
+}
