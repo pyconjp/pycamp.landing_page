@@ -59,6 +59,7 @@ html_theme = 'alabaster'
 html_theme_options = {
     "nosidebar": True,
     "font_family": "sans-serif",
+    "font_size": "16px",
 }
 
 # Add any paths that contain custom static files (such as style sheets) here,
