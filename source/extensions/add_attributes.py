@@ -62,4 +62,5 @@ def doctree_resolved_hook(app, doctree, docname):
 
 def setup(app):
     app.set_translator("html", PatchedHTMLTranslator)
+    app.set_translator("singlehtml", PatchedHTMLTranslator)
     app.connect("doctree-resolved", doctree_resolved_hook)
