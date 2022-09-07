@@ -72,4 +72,8 @@ html_title = "Python Boot Campで全国にPythonの環を広げよう！ #pycamp
 
 html_favicon = "_static/favicon.png"
 
+html_css_files = [
+    "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css",
+]
+
 # -- Extension configuration -------------------------------------------------
