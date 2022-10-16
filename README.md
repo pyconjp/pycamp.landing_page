@@ -1,5 +1,8 @@
 # pycamp.landing_page
 
+「Python Boot Campで全国にPythonの環を広げよう！」 https://pycamp-lp.pycon.jp/ のソースリポジトリです。  
+GitHub Pages https://pyconjp.github.io/pycamp.landing_page/ をカスタムドメインで運用しています。
+
 ## 開発環境構築
 
 ```shell
