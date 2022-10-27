@@ -30,6 +30,7 @@ author = 'PyCon JP Committee'
 extensions = [
     'sphinx.ext.githubpages',
     "sphinx_design",
+    "sphinx_new_tab_link",
     "add_attributes",
     "event_history",
 ]
