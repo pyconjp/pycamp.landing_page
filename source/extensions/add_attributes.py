@@ -1,26 +1,4 @@
 from docutils import nodes
-from docutils.nodes import Element
-from sphinx.writers.html import HTMLTranslator
-
-
-class PatchedHTMLTranslator(HTMLTranslator):
-    """aタグのリンクを別タブで開くようにパッチを当てたtranslator
-
-    ref: https://stackoverflow.com/a/67153583
-    """
-
-    def starttag(self, node, tagname, *args, **atts):
-        if (
-            tagname == "a"
-            and "target" not in atts
-            and (
-                "external" in atts.get("class", "")
-                or "external" in atts.get("classes", [])
-            )
-        ):
-            atts["target"] = "_blank"
-            atts["rel"] = "noopener noreferrer"
-        return super().starttag(node, tagname, *args, **atts)
 
 
 def centering_header_elements_text(doctree):
@@ -42,6 +20,4 @@ def doctree_resolved_hook(app, doctree, docname):
 
 
 def setup(app):
-    app.set_translator("html", PatchedHTMLTranslator)
-    app.set_translator("singlehtml", PatchedHTMLTranslator)
     app.connect("doctree-resolved", doctree_resolved_hook)
