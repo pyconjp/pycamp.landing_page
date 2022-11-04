@@ -1,4 +1,5 @@
 # pycamp.landing_page
+![publish workflow](https://github.com/pyconjp/pycamp.landing_page/actions/workflows/publish.yml/badge.svg)
 
 「Python Boot Campで全国にPythonの環を広げよう！」 https://pycamp-lp.pycon.jp/ のソースリポジトリです。  
 GitHub Pages https://pyconjp.github.io/pycamp.landing_page/ をカスタムドメインで運用しています。
