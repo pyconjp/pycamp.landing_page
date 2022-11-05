@@ -1,4 +1,6 @@
 # pycamp.landing_page
+[![pycamp custom badge](https://img.shields.io/badge/pycamp-Spread--Python--at--Python--Boot--Camp-4EBBE2.svg?style=for-the-badge)](https://pycamp-lp.pycon.jp/)
+
 ![publish workflow](https://github.com/pyconjp/pycamp.landing_page/actions/workflows/publish.yml/badge.svg)
 
 「Python Boot Campで全国にPythonの環を広げよう！」 https://pycamp-lp.pycon.jp/ のソースリポジトリです。  
