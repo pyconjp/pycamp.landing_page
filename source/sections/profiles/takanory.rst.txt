@@ -26,5 +26,5 @@
 
 **ブログ・SNSのリンク**
 
-* `Twitter <https://twitter.com/takanory>`_
-* `Facebook <https://www.facebook.com/takanory.net>`_
+* `Twitter <https://twitter.com/takanory>`__
+* `Facebook <https://www.facebook.com/takanory.net>`__

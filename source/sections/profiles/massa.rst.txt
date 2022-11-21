@@ -17,5 +17,5 @@
 
 **ブログ・SNSのリンク**
 
-* `Twitter <https://twitter.com/massa142>`_
-* `Blog <https://massa142.hatenablog.com/>`_
+* `Twitter <https://twitter.com/massa142>`__
+* `Blog <https://massa142.hatenablog.com/>`__
