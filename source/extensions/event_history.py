@@ -15,8 +15,8 @@ class EventHistoryCSVTable(CSVTable):
         ... ]
         >>> expected = [
         ...   "開催地,参加人数",
-        ...   "`京都 <https://pyconjp.connpass.com/event/33014/>`_,一般参加5人",
-        ...   "`愛媛 <https://pyconjp.connpass.com/event/34564/>`_,一般参加11人、学生1人",
+        ...   "`京都 <https://pyconjp.connpass.com/event/33014/>`__,一般参加5人",
+        ...   "`愛媛 <https://pyconjp.connpass.com/event/34564/>`__,一般参加11人、学生1人",
         ... ]
         >>> actual = EventHistoryCSVTable.hyperlink_csv_data(csv_data)
         >>> actual == expected
@@ -25,7 +25,7 @@ class EventHistoryCSVTable(CSVTable):
         # TODO: 引数にdialectを追加する余地がありそう
         reader = csv.DictReader(csv_data)
         converted_csv_data = [
-            f"`{row['開催地']} <{row['URL']}>`_,{row['参加人数']}" for row in reader
+            f"`{row['開催地']} <{row['URL']}>`__,{row['参加人数']}" for row in reader
         ]
         header = "開催地,参加人数"
         converted_csv_data.insert(0, header)
