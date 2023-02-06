@@ -6,6 +6,10 @@
 .. meta::
    :description: Pythonのチュートリアルを全国で開催するイベント「Python Boot Camp」について分かりやすく解説したページです。Pythonを学びたいけどなかなか始められない人、ぜひチェックしてください！
    :keywords: Python Boot Camp, pycamp, Python ブートキャンプ, Python チュートリアル, 一般社団法人PyCon JP Association
+   :property=og:url: https://pyconjp.github.io/pycamp.landing_page/
+   :property=og:title: Python Boot Campで全国にPythonの環を広げよう！ #pycamp
+   :property=og:description: Pythonのチュートリアルを全国で開催するイベント「Python Boot Camp」について分かりやすく解説したページです。Pythonを学びたいけどなかなか始められない人、ぜひチェックしてください！
+   :property=og:image: https://pyconjp.github.io/pycamp.landing_page/_images/cover.png
 
 .. include:: share_buttons.rst.txt
 
