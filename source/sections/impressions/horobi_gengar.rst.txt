@@ -1,4 +1,4 @@
-.. grid-item-card:: `@horobi_gengar <https://twitter.com/horobi_gengar>`_
+.. grid-item-card:: `@horobi_gengar <https://x.com/horobi_gengar>`_
     :img-top: _static/impressions/horobi_gengar.png
     :class-header: sd-text-center
     :class-title: sd-text-center sd-fs-3

@@ -1,4 +1,4 @@
-.. grid-item-card:: `@koty <https://twitter.com/koty>`_
+.. grid-item-card:: `@koty <https://x.com/koty>`_
     :img-top: _static/impressions/koty.jpg
     :class-header: sd-text-center
     :class-title: sd-text-center sd-fs-3

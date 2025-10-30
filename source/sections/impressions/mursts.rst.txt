@@ -1,4 +1,4 @@
-.. grid-item-card:: `mursts <https://twitter.com/mursts>`_
+.. grid-item-card:: `mursts <https://x.com/mursts>`_
     :img-top: _static/impressions/mursts.jpg
     :class-header: sd-text-center
     :class-title: sd-text-center sd-fs-3

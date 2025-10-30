@@ -1,4 +1,4 @@
-.. grid-item-card:: `@max747 <https://twitter.com/max747>`_
+.. grid-item-card:: `@max747 <https://x.com/max747>`_
     :img-top: _static/impressions/max747.jpg
     :class-header: sd-text-center
     :class-title: sd-text-center sd-fs-3
