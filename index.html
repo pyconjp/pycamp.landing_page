@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+
+<html lang="ja" data-content_root="./">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta content="Pythonのチュートリアルを全国で開催するイベント「Python Boot Camp」について分かりやすく解説したページです。Pythonを学びたいけどなかなか始められない人、ぜひチェックしてください！" name="description" />
+<meta content="Python Boot Camp, pycamp, Python ブートキャンプ, Python チュートリアル, 一般社団法人PyCon JP Association" name="keywords" />
+<meta content="https://pyconjp.github.io/pycamp.landing_page/" property="og:url" />
+<meta content="Python Boot Campで全国にPythonの環を広げよう！ #pycamp" property="og:title" />
+<meta content="Pythonのチュートリアルを全国で開催するイベント「Python Boot Camp」について分かりやすく解説したページです。Pythonを学びたいけどなかなか始められない人、ぜひチェックしてください！" property="og:description" />
+<meta content="https://pyconjp.github.io/pycamp.landing_page/_images/cover.png" property="og:image" />
+
+    <title>Python Boot Campで全国にPythonの環を広げよう！ #pycamp</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=5ecbeea2" />
+    <link rel="stylesheet" type="text/css" href="_static/basic.css?v=686e5160" />
+    <link rel="stylesheet" type="text/css" href="_static/alabaster.css?v=d1a240b8" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-design.min.css?v=95c83b7e" />
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+    <script src="_static/documentation_options.js?v=5fbe7016"></script>
+    <script src="_static/doctools.js?v=9bcbadda"></script>
+    <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="_static/translations.js?v=4755f45a"></script>
+    <script src="_static/design-tabs.js?v=f930bc37"></script>
+    <link rel="canonical" href="https://pycamp-lp.pycon.jp/#document-index" />
+    <link rel="icon" href="_static/favicon.png"/>
+    <link rel="index" title="索引" href="genindex.html" />
+    <link rel="search" title="検索" href="search.html" />
+  
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+
+  
+  
+
+
+  <!-- TODO @pyconjapanの@がエスケープされないようにする方法を見つけて index.rstのmetaディレクティブに移す -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@pyconjapan">
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+          
+
+          <div class="body" role="main">
+            
+  <div id="buttons-row" style="height: 10vh; display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 32px;">
+  <div id="buttons-container" style="display: flex; flex-wrap: wrap; justify-content: flex-start; align-items: center; gap: 16px;">
+    <!-- TODO: Facebookいいねボタンを以下に設置 https://github.com/pyconjp/pycamp.landing_page/issues/23 -->
+    <!-- <a>Facebook いいね</a> -->
+    <!-- TODO: Facebookシェアボタンを以下に設置 https://github.com/pyconjp/pycamp.landing_page/issues/24 -->
+    <!-- <a>Facebook シェア</a> -->
+    <a href="https://x.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-text="Python Boot Campで全国にPythonの環を広げよう！" data-url="https://pyconjp.github.io/pycamp.landing_page/" data-hashtags="pycamp" data-lang="ja" data-dnt="true" data-show-count="false">Tweet</a><script async src="https://platform.x.com/widgets.js" charset="utf-8"></script>
+    <a href="https://b.hatena.ne.jp/entry/s/pyconjp.github.io/pycamp.landing_page/" class="hatena-bookmark-button" data-hatena-bookmark-layout="vertical-normal" data-hatena-bookmark-lang="ja" title="このエントリーをはてなブックマークに追加"><img src="https://b.st-hatena.com/images/v4/public/entry-button/button-only@2x.png" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" /></a><script type="text/javascript" src="https://b.st-hatena.com/js/bookmark_button.js" charset="utf-8" async="async"></script>
+    <a href="https://github.com/pyconjp/pycamp.landing_page" rel="noopener noreferrer" target="_blank"><span class="fab fa-github fa-xl" style="color: initial;"></span></a>
+  </div>
+</div><section id="python-boot-camppython-pycamp">
+<h1 class="sd-text-center">Python Boot Campで全国にPythonの環を広げよう！ #pycamp<a class="headerlink" href="#python-boot-camppython-pycamp" title="Link to this heading">¶</a></h1>
+<figure class="align-default">
+<img alt="_images/cover.png" src="_images/cover.png" />
+</figure>
+<section id="id5">
+<h2 class="sd-text-center">Python Boot Campとは？<a class="headerlink" href="#id5" title="Link to this heading">¶</a></h2>
+<p>PyCon JPではこれまでも年に１回東京で開催されるPyCon JPイベントでPythonを学べるチュートリアル講座を開催してきました。
+今回は、以下のような人たちにPythonを知ってもらえる機会を提供できたらという思いで、<a class="reference external" href="https://www.pycon.jp/support/bootcamp.html" rel="noreferrer" target="_blank">Python Boot Camp</a> （略してPyCamp）を企画しました。</p>
+<ul class="simple">
+<li><p>遠方に住んでいるためPyCon JPのチュートリアルに参加できずにいた方</p></li>
+<li><p>Pythonを使っている人が周りにいなくてなかなか始められなかった方</p></li>
+</ul>
+<p>イベントの雰囲気をつかむには、以下サイトをチェックしてみてください。</p>
+<ul class="simple">
+<li><p><a class="reference external" href="http://pyconjp.blogspot.jp/" rel="noreferrer" target="_blank">PyCon JPブログ</a> 開催告知や開催後のレポートを公開しています。</p></li>
+<li><p><a class="reference external" href="http://bootcamp-text.readthedocs.io/textbook/index.html" rel="noreferrer" target="_blank">Python Boot Campテキスト</a> チュートリアルで実際に使用されるテキストです。</p></li>
+</ul>
+<div class="line-block">
+<div class="line">また、「自分の街で開催したい」という人を募集しています。</div>
+<div class="line">立候補した人が運営に携わってもらうことになりますが、難しいことは何もありません。必要なタスクは予め決まっているので、<a class="reference external" href="http://bootcamp-text.readthedocs.io/organize/1_manual.html" rel="noreferrer" target="_blank">運営マニュアル</a> に沿ってもらえば問題ありません。</div>
+<div class="line">もし何か分からないことがあっても「コアスタッフ」がサポートするので安心です。</div>
+</div>
+<p>ぜひ、以下問い合わせボタンから連絡してください！</p>
+<p class="sd-text-center"><a class="sd-sphinx-override sd-btn sd-text-wrap sd-rounded-pill sd-px-4 reference external" href="https://docs.google.com/forms/d/1IANh21fievi_lyyQyL8II66RSxlVuHBdAhr05C1qv9c/viewform" rel="noreferrer" target="_blank"><span>問い合わせる</span></a></p>
+</section>
+<section id="id6">
+<h2 class="sd-text-center">お知らせ<a class="headerlink" href="#id6" title="Link to this heading">¶</a></h2>
+<p>レバテック株式会社様運営のレバテックフリーランスにてPython Boot Campが紹介されました。</p>
+<p><a class="reference external" href="https://freelance.levtech.jp/guide/detail/1674/" rel="noreferrer" target="_blank">【2024年版】エンジニア向け学習サイト・おすすめのメディア一覧</a></p>
+</section>
+<section id="id7">
+<h2 class="sd-text-center">運営メンバーの主な役割<a class="headerlink" href="#id7" title="Link to this heading">¶</a></h2>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 25.0%" />
+<col style="width: 75.0%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p>運営スタッフ</p></td>
+<td><p>会場の手配、イベントの告知、スタッフ間のミーティング等、開催までに必要なタスクを実施する。</p></td>
+</tr>
+<tr class="row-even"><td><p>講師</p></td>
+<td><p>開催時に参加者向けにチュートリアルを行う。</p></td>
+</tr>
+<tr class="row-odd"><td><p>TA（ティーチアシスタント）</p></td>
+<td><p>チュートリアル中に参加者を個別にサポートする。</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="id8">
+<h2 class="sd-text-center">過去回運営メンバーの感想<a class="headerlink" href="#id8" title="Link to this heading">¶</a></h2>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-1 sd-row-cols-xs-1 sd-row-cols-sm-1 sd-row-cols-md-2 sd-row-cols-lg-3 docutils">
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<img alt="" class="sd-card-img-top" src="_images/pyohei.jpg" />
+<div class="sd-card-header sd-text-center docutils">
+<p class="sd-card-text">運営スタッフ</p>
+</div>
+<div class="sd-card-body docutils">
+<div class="sd-card-title sd-font-weight-bold sd-text-center sd-fs-3 docutils">
+<a class="reference external" href="https://github.com/pyohei" rel="noreferrer" target="_blank">&#64;pyohei</a></div>
+<p class="sd-card-text">運営スタッフとしてPythonを学ぶ方たちのサポートができ、やりがいと充実感を感じました。
+講師やTA、コアスタッフの方とも気さくに話せ、準備から楽しく過ごすことができ、また参加したいです！</p>
+</div>
+</div>
+</div>
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<img alt="" class="sd-card-img-top" src="_images/npmyj.jpg" />
+<div class="sd-card-header sd-text-center docutils">
+<p class="sd-card-text">運営スタッフ</p>
+</div>
+<div class="sd-card-body docutils">
+<div class="sd-card-title sd-font-weight-bold sd-text-center sd-fs-3 docutils">
+<a class="reference external" href="https://www.netplan.co.jp/" rel="noreferrer" target="_blank">&#64;npmyj</a></div>
+<p class="sd-card-text">数年前からPythonに興味を持ち勉強を始めたものの、身近にPythonを使っている人があまりいなくて様子がわからず、ちょうど良い機会と思いPython Boot Campの現地スタッフとして手を挙げてみました。
+初心者が大半でしたが、丁寧な説明により全員が最後まで手を動かして学ぶことができました。</p>
+</div>
+</div>
+</div>
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<img alt="" class="sd-card-img-top" src="_images/max747.jpg" />
+<div class="sd-card-header sd-text-center docutils">
+<p class="sd-card-text">TA</p>
+</div>
+<div class="sd-card-body docutils">
+<div class="sd-card-title sd-font-weight-bold sd-text-center sd-fs-3 docutils">
+<a class="reference external" href="https://x.com/max747" rel="noreferrer" target="_blank">&#64;max747</a></div>
+<p class="sd-card-text">Python入門といってもその幅は広く、他言語の経験がある方もいればプログラミングが初めての方もいます。
+Boot Campでは経験の少ない方をTAが手厚くサポートしますので、安心して参加できます。</p>
+</div>
+</div>
+</div>
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<img alt="" class="sd-card-img-top" src="_images/YouheiSakurai.jpg" />
+<div class="sd-card-header sd-text-center docutils">
+<p class="sd-card-text">TA</p>
+</div>
+<div class="sd-card-body docutils">
+<div class="sd-card-title sd-font-weight-bold sd-text-center sd-fs-3 docutils">
+<a class="reference external" href="https://github.com/sakurai-youhei" rel="noreferrer" target="_blank">Youhei Sakurai</a></div>
+<p class="sd-card-text">Python Boot Campに参加することは、まず第一に自分のPython力を振り返る良いきっかけになります。
+また、日本のPythonコミュニティの運営話を聞いたり、これからPythonを学んでいく方々と交流したりと、Pythonに関するメタな情報に触れられる点も魅力の一つだと思います。</p>
+</div>
+</div>
+</div>
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<img alt="" class="sd-card-img-top" src="_images/horobi_gengar.png" />
+<div class="sd-card-header sd-text-center docutils">
+<p class="sd-card-text">講師</p>
+</div>
+<div class="sd-card-body docutils">
+<div class="sd-card-title sd-font-weight-bold sd-text-center sd-fs-3 docutils">
+<a class="reference external" href="https://x.com/horobi_gengar" rel="noreferrer" target="_blank">&#64;horobi_gengar</a></div>
+<div class="line-block">
+<div class="line">フォーム経由で申し込み、初版のテキスト作成と初回講師を行いました。</div>
+<div class="line">初回ということもあり、ぎりぎりまで参加者が増えず、不安でしたが、</div>
+<div class="line">現地スタッフの方々の補助もあり、何とかやりきれました。</div>
+</div>
+</div>
+</div>
+</div>
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<img alt="" class="sd-card-img-top" src="_images/koty.jpg" />
+<div class="sd-card-header sd-text-center docutils">
+<p class="sd-card-text">TA</p>
+</div>
+<div class="sd-card-body docutils">
+<div class="sd-card-title sd-font-weight-bold sd-text-center sd-fs-3 docutils">
+<a class="reference external" href="https://x.com/koty" rel="noreferrer" target="_blank">&#64;koty</a></div>
+<p class="sd-card-text">27名と多数の方に参加いただき、TA＆現地スタッフ5名体制でサポートしました。
+おおむね参加者には満足してもらったようで良かったです。
+講師のお話は私達TAが聞いていても大変勉強になりました。</p>
+</div>
+</div>
+</div>
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<img alt="" class="sd-card-img-top" src="_images/mursts.jpg" />
+<div class="sd-card-header sd-text-center docutils">
+<p class="sd-card-text">現地スタッフ</p>
+</div>
+<div class="sd-card-body docutils">
+<div class="sd-card-title sd-font-weight-bold sd-text-center sd-fs-3 docutils">
+<a class="reference external" href="https://x.com/mursts" rel="noreferrer" target="_blank">mursts</a></div>
+<p class="sd-card-text">当日は、講師・コアスタッフ・TAの協力もあり素晴らしいイベントになりました。
+運営スタッフの仕事はマニュアルがありタスク化してあるので、それにそって準備をするだけで特に大変だということはありませんでした。
+自分の地域でもやってみたいという方は運営スタッフとして応募してはいかがでしょうか。</p>
+</div>
+</div>
+</div>
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<img alt="" class="sd-card-img-top" src="_images/coming_soon.png" />
+<div class="sd-card-body docutils">
+<div class="sd-card-title sd-font-weight-bold sd-text-center sd-fs-3 docutils">
+COMING SOON!</div>
+</div>
+</div>
+</div>
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<img alt="" class="sd-card-img-top" src="_images/coming_soon.png" />
+<div class="sd-card-body docutils">
+<div class="sd-card-title sd-font-weight-bold sd-text-center sd-fs-3 docutils">
+COMING SOON!</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="id9">
+<h2 class="sd-text-center">講師プロフィール<a class="headerlink" href="#id9" title="Link to this heading">¶</a></h2>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-1 sd-row-cols-xs-1 sd-row-cols-sm-1 sd-row-cols-md-1 sd-row-cols-lg-2 docutils">
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<div class="sd-card-body docutils">
+<figure class="align-default">
+<img alt="_images/shimizukawa.jpg" src="_images/shimizukawa.jpg" />
+</figure>
+<h3 class="sd-text-center">Takayuki Shimizukawa</h3><div class="line-block">
+<div class="line">一般社団法人PyCon JP Association 会計理事 / (株)ビープラウド所属 / Sphinxコミッター。</div>
+<div class="line">2003年にZope2と出会い, それがPython関連のOSSコミュニティーで活動を始めるきっかけとなった。2011年のPyCon JP立ち上げ以降スタッフや理事としてPyCon JP運営に関わっている。</div>
+<div class="line">最近は、公私ともにPythonを教える立場で多く活動している。</div>
+</div>
+<p class="sd-card-text"><strong>主な著書</strong></p>
+<ul class="simple">
+<li><p class="sd-card-text"><a class="reference external" href="https://gihyo.jp/book/2020/978-4-297-11197-7" rel="noreferrer" target="_blank">自走プログラマー（2020, 技術評論社）</a></p></li>
+<li><p class="sd-card-text"><a class="reference external" href="https://www.shuwasystem.co.jp/book/9784798053820.html" rel="noreferrer" target="_blank">Pythonプロフェッショナルプログラミング第3版（2018, 秀和システム）</a></p></li>
+<li><p class="sd-card-text"><a class="reference external" href="https://www.kadokawa.co.jp/product/301801000262/" rel="noreferrer" target="_blank">エキスパートPythonプログラミング 改訂2版（2018, KADOKAWA/アスキー・メディアワークス）</a></p></li>
+<li><p class="sd-card-text"><a class="reference external" href="https://www.oreilly.co.jp/books/9784873118192/" rel="noreferrer" target="_blank">Sphinxをはじめよう（2017, O'Reilly Japan）</a></p></li>
+</ul>
+<p class="sd-card-text"><strong>ブログ・SNSのリンク</strong></p>
+<ul class="simple">
+<li><p class="sd-card-text"><a class="reference external" href="http://about.me/shimizukawa" rel="noreferrer" target="_blank">http://about.me/shimizukawa</a></p></li>
+<li><p class="sd-card-text"><a class="reference external" href="http://清水川.jp/" rel="noreferrer" target="_blank">http://清水川.jp/</a></p></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<div class="sd-card-body docutils">
+<figure class="align-default">
+<img alt="_images/takanory.jpg" src="_images/takanory.jpg" />
+</figure>
+<h3 class="sd-text-center">Takanori Suzuki</h3><div class="line-block">
+<div class="line">一般社団法人PyCon JP Association 副代表理事/(株)ビープラウド 所属。</div>
+<div class="line">部内のサイトを作るためにZope/Ploneと出会い、その後必要にかられてPythonを使い始める。PyCon JPでは2011年1月のPyCon mini JPからスタッフとして活動し、2014年-2016年のPyCon JP座長。 他の主な活動は、 Pythonボルダリング部(#kabepy) 部長、 Python mini Hack-a-thon(#pyhack) 主催など。</div>
+</div>
+<p class="sd-card-text"><strong>主な著書</strong></p>
+<ul class="simple">
+<li><p class="sd-card-text">最短距離でゼロからしっかり学ぶPython入門 (<a class="reference external" href="https://gihyo.jp/book/2020/978-4-297-11570-8" rel="noreferrer" target="_blank">必修編</a>・<a class="reference external" href="https://gihyo.jp/book/2020/978-4-297-11572-2" rel="noreferrer" target="_blank">実践編</a>) （2020 技術評論社刊）</p></li>
+<li><p class="sd-card-text"><a class="reference external" href="https://book.impress.co.jp/books/1119101162" rel="noreferrer" target="_blank">いちばんやさしいPythonの教本 第2版 （2020 インプレス刊）</a></p></li>
+<li><p class="sd-card-text"><a class="reference external" href="https://book.impress.co.jp/books/1118101072" rel="noreferrer" target="_blank">いちばんやさしいPython機械学習の教本 （2019 インプレス刊）</a></p></li>
+<li><p class="sd-card-text"><a class="reference external" href="https://www.shoeisha.co.jp/book/detail/9784798158341" rel="noreferrer" target="_blank">Pythonによるあたらしいデータ分析の教科書 （2018 翔泳社刊）</a></p></li>
+<li><p class="sd-card-text"><a class="reference external" href="https://www.shuwasystem.co.jp/book/9784798053820.html" rel="noreferrer" target="_blank">Pythonプロフェッショナルプログラミング 第3版 （2018 秀和システム刊）</a></p></li>
+<li><p class="sd-card-text"><a class="reference external" href="https://gihyo.jp/book/2017/978-4-7741-9222-2" rel="noreferrer" target="_blank">Pythonエンジニア ファーストブック （2017 技術評論社刊）</a></p></li>
+</ul>
+<p class="sd-card-text"><strong>ブログ・SNSのリンク</strong></p>
+<ul class="simple">
+<li><p class="sd-card-text"><a class="reference external" href="https://x.com/takanory" rel="noreferrer" target="_blank">X</a></p></li>
+<li><p class="sd-card-text"><a class="reference external" href="https://www.facebook.com/takanory.net" rel="noreferrer" target="_blank">Facebook</a></p></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<div class="sd-card-body docutils">
+<figure class="align-default">
+<img alt="_images/terapyon.png" src="_images/terapyon.png" />
+</figure>
+<h3 class="sd-text-center">Manabu TERADA</h3><p class="sd-card-text">Python Web関係の業務を中心にコンサルティングや構築を(株)CMSコミュニケーションズ代表取締役として手がけている。
+一般社団法人PyCon JP Association 代表理事、一般社団法人Pythonエンジニア育成推進協会顧問理事など</p>
+<p class="sd-card-text"><strong>主な著書</strong></p>
+<ul class="simple">
+<li><p class="sd-card-text"><a class="reference external" href="https://www.shoeisha.co.jp/book/detail/9784798155654" rel="noreferrer" target="_blank">機械学習図鑑(共著)</a></p></li>
+<li><p class="sd-card-text"><a class="reference external" href="https://www.shoeisha.co.jp/book/detail/9784798158341" rel="noreferrer" target="_blank">Pythonによるあたらしいデータ分析の教科書(共著)</a></p></li>
+<li><p class="sd-card-text"><a class="reference external" href="http://www.shoeisha.co.jp/book/detail/9784798151090" rel="noreferrer" target="_blank">スラスラわかるPython(監修)</a></p></li>
+<li><p class="sd-card-text"><a class="reference external" href="https://book.mynavi.jp/ec/products/detail/id=115482" rel="noreferrer" target="_blank">Pythonハッカーガイドブック(監訳)</a></p></li>
+</ul>
+<p class="sd-card-text"><strong>ブログ・SNSのリンク</strong></p>
+<ul class="simple">
+<li><p class="sd-card-text"><a class="reference external" href="https://x.com/terapyon" rel="noreferrer" target="_blank">X</a></p></li>
+<li><p class="sd-card-text"><a class="reference external" href="https://podcast.terapyon.net/" rel="noreferrer" target="_blank">Podcast</a></p></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<div class="sd-card-body docutils">
+<figure class="align-default">
+<img alt="_images/massa.png" src="_images/massa.png" />
+</figure>
+<h3 class="sd-text-center">Masataka Arai</h3><p class="sd-card-text">東京大学文学部卒業、アライドアーキテクツ株式会社にて勤務。
+2016年4月、株式会社SQUEEZEに入社。
+コミュニティ活動として、PyCon JP 2015〜 2019 スタッフ、DjangoCongress JP 2018〜 スタッフ、Pythonもくもく会の主催など。
+趣味はラクロスとPerfume。</p>
+<p class="sd-card-text"><strong>主な著書</strong></p>
+<ul class="simple">
+<li><p class="sd-card-text"><a class="reference external" href="https://gihyo.jp/book/2018/978-4-7741-9706-7" rel="noreferrer" target="_blank">React，Angular，Vue.js，React Nativeを使って学ぶ はじめてのフロントエンド開発（2018 技術評論社刊）</a></p></li>
+</ul>
+<p class="sd-card-text"><strong>ブログ・SNSのリンク</strong></p>
+<ul class="simple">
+<li><p class="sd-card-text"><a class="reference external" href="https://x.com/massa142" rel="noreferrer" target="_blank">X</a></p></li>
+<li><p class="sd-card-text"><a class="reference external" href="https://massa142.hatenablog.com/" rel="noreferrer" target="_blank">Blog</a></p></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="id16">
+<h2 class="sd-text-center">開催中の写真<a class="headerlink" href="#id16" title="Link to this heading">¶</a></h2>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-1 sd-row-cols-xs-1 sd-row-cols-sm-1 sd-row-cols-md-2 sd-row-cols-lg-2 docutils">
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<div class="sd-card-body docutils">
+<figure class="align-default">
+<img alt="_images/lecture.jpg" src="_images/lecture.jpg" />
+</figure>
+<h3 class="sd-text-center">講師とTAがしっかり教えます</h3></div>
+</div>
+</div>
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<div class="sd-card-body docutils">
+<figure class="align-default">
+<img alt="_images/sweets.jpg" src="_images/sweets.jpg" />
+</figure>
+<h3 class="sd-text-center">おやつもあります</h3></div>
+</div>
+</div>
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<div class="sd-card-body docutils">
+<figure class="align-default">
+<img alt="_images/cheers.jpg" src="_images/cheers.jpg" />
+</figure>
+<h3 class="sd-text-center">開催後は懇親会！</h3></div>
+</div>
+</div>
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<div class="sd-card-body docutils">
+<figure class="align-default">
+<img alt="_images/memory.jpg" src="_images/memory.jpg" />
+</figure>
+<h3 class="sd-text-center">みんなで記念撮影</h3></div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="id17">
+<h2 class="sd-text-center">よくある質問<a class="headerlink" href="#id17" title="Link to this heading">¶</a></h2>
+<section id="id18">
+<h3>参加したいけど実際にどんなことを教わるの？<a class="headerlink" href="#id18" title="Link to this heading">¶</a></h3>
+<div class="line-block">
+<div class="line">まずはじめの一歩として、FizzBuzzという簡単なプログラムを書いたり、Pythonの基礎的な文法について学びます。</div>
+<div class="line">さらに、特定のウェブサイトから情報を抜き出す「スクレイピングツール」を作ってもらいます。</div>
+<div class="line">また、この講義だけで学習が終わらないように、次のステップに進むための情報収集方法についても紹介します。</div>
+<div class="line">テキストについては以下に公開しているので、誰でも読むことができます。</div>
+<div class="line"><a class="reference external" href="http://bootcamp-text.readthedocs.io/textbook/index.html" rel="noreferrer" target="_blank">Python Boot Campテキスト</a></div>
+</div>
+</section>
+<section id="id19">
+<h3>運営スタッフはどんなことをするの？<a class="headerlink" href="#id19" title="Link to this heading">¶</a></h3>
+<div class="line-block">
+<div class="line">運営スタッフには開催までに必要なタスクを実施してもらいますが、運営スタッフが全部やる必要はありません。一部はコアスタッフがサポートします。</div>
+<div class="line">また、<a class="reference external" href="http://bootcamp-text.readthedocs.io/organize/1_manual.html" rel="noreferrer" target="_blank">Python Boot Camp 運営マニュアル</a> も用意しているので、初めての人でも安心です。</div>
+<div class="line">運営スタッフが担当するタスクは、主にこんなものがあります。</div>
+</div>
+<ul class="simple">
+<li><p><a class="reference external" href="https://connpass.com/" rel="noreferrer" target="_blank">connpass</a> イベント作成して公開</p></li>
+<li><p>お茶、お菓子購入</p></li>
+<li><p>参加者への事前連絡告知（PyCon JPブログ、メーリングリストへの投稿など）</p></li>
+<li><p>経費精算</p></li>
+<li><p><a class="reference external" href="http://pyconjp.blogspot.jp/" rel="noreferrer" target="_blank">PyCon JPブログ</a> での開催告知・開催後レポート</p></li>
+<li><p>振り返りミーティング</p></li>
+</ul>
+<p>開催までだいたい1～1.5ヶ月ぐらいかけて準備します。</p>
+</section>
+<section id="id20">
+<h3>講師ってどんなことをするの？<a class="headerlink" href="#id20" title="Link to this heading">¶</a></h3>
+<div class="line-block">
+<div class="line">講師は、参加者に手を動かしてPythonを楽しんでもらうだけでなく、イベント後も独力で学習が続けられるようにサポートします。</div>
+<div class="line">講義内容を自分で作成する必要はありません。<a class="reference external" href="http://bootcamp-text.readthedocs.io/textbook/index.html" rel="noreferrer" target="_blank">Python Boot Campテキスト</a> が予め用意されています。テキストには参加者からのフィードバックや過去回の講師からの意見が反映されていて、非常に洗練されています。</div>
+</div>
+<p>また、事前に予行練習を行ってフィードバックを受けることもできます。</p>
+</section>
+<section id="ta">
+<h3>TAってどんなことをするの？<a class="headerlink" href="#ta" title="Link to this heading">¶</a></h3>
+<p>Python Boot Campの参加者はPython初心者なので、初歩的な部分でつまづいて先に進めない人が時々います。
+そういう時に講師が全員に目を配るのは難しいため、個別にサポートする役割としてTAがいます。</p>
+</section>
+</section>
+<section id="id21">
+<h2 class="sd-text-center">過去の開催回で集まった人数<a class="headerlink" href="#id21" title="Link to this heading">¶</a></h2>
+<p>過去の開催ではこのぐらいの人数が集まりました。<a class="reference external" href="https://www.pycon.jp/sponsor/media.html" rel="noreferrer" target="_blank">一般社団法人PyCon JP メディアスポンサー</a> からも開催告知をしてもらえます。</p>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>開催地</p></th>
+<th class="head"><p>参加人数</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><a class="reference external" href="https://pyconjp.connpass.com/event/33014/" rel="noreferrer" target="_blank">京都</a></p></td>
+<td><p>一般参加5人</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference external" href="https://pyconjp.connpass.com/event/34564/" rel="noreferrer" target="_blank">愛媛</a></p></td>
+<td><p>一般参加11人、学生1人</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference external" href="https://pyconjp.connpass.com/event/36773/" rel="noreferrer" target="_blank">熊本</a></p></td>
+<td><p>一般参加3人、学生5人</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference external" href="https://pyconjp.connpass.com/event/43134/" rel="noreferrer" target="_blank">札幌</a></p></td>
+<td><p>一般参加11人、学生6人</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference external" href="https://pyconjp.connpass.com/event/47757/" rel="noreferrer" target="_blank">栃木小山</a></p></td>
+<td><p>一般参加9人、学生1人</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference external" href="https://pyconjp.connpass.com/event/50095/" rel="noreferrer" target="_blank">広島</a></p></td>
+<td><p>一般参加13人、学生2人</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference external" href="https://pyconjp.connpass.com/event/52480/" rel="noreferrer" target="_blank">大阪</a></p></td>
+<td><p>一般参加13人、学生2人</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference external" href="https://pyconjp.connpass.com/event/55110/" rel="noreferrer" target="_blank">神戸</a></p></td>
+<td><p>一般参加17人、学生4人</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference external" href="https://pyconjp.connpass.com/event/55693/" rel="noreferrer" target="_blank">長野</a></p></td>
+<td><p>一般参加19人、学生8人</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference external" href="https://pyconjp.connpass.com/event/56141/" rel="noreferrer" target="_blank">香川</a></p></td>
+<td><p>一般参加12人、学生8人</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference external" href="https://pyconjp.connpass.com/event/60165/" rel="noreferrer" target="_blank">愛知</a></p></td>
+<td><p>一般参加32人、学生5人</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference external" href="https://pyconjp.connpass.com/event/62769/" rel="noreferrer" target="_blank">福岡</a></p></td>
+<td><p>一般参加29人、学生3人</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference external" href="https://pyconjp.connpass.com/event/66747/" rel="noreferrer" target="_blank">長野八ヶ岳</a></p></td>
+<td><p>一般参加14人、学生1人</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference external" href="https://pyconjp.connpass.com/event/67709/" rel="noreferrer" target="_blank">鹿児島</a></p></td>
+<td><p>一般参加17人、学生10人</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference external" href="https://pyconjp.connpass.com/event/67533/" rel="noreferrer" target="_blank">静岡</a></p></td>
+<td><p>一般参加10人、学生0人</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference external" href="https://pyconjp.connpass.com/event/69431/" rel="noreferrer" target="_blank">新潟南魚沼</a></p></td>
+<td><p>一般参加15人、学生6人</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference external" href="https://pyconjp.connpass.com/event/69433/" rel="noreferrer" target="_blank">埼玉</a></p></td>
+<td><p>一般参加31人、学生4人</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference external" href="https://pyconjp.connpass.com/event/71908/" rel="noreferrer" target="_blank">神奈川</a></p></td>
+<td><p>一般参加11人、学生1人</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference external" href="https://pyconjp.connpass.com/event/74767/" rel="noreferrer" target="_blank">金沢</a></p></td>
+<td><p>一般参加24人、学生2人</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference external" href="https://pyconjp.connpass.com/event/75923/" rel="noreferrer" target="_blank">福島</a></p></td>
+<td><p>一般参加14人、学生3人</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference external" href="https://pyconjp.connpass.com/event/81251/" rel="noreferrer" target="_blank">柏の葉</a></p></td>
+<td><p>一般参加30人、学生7人</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference external" href="https://pyconjp.connpass.com/event/86461/" rel="noreferrer" target="_blank">岩手</a></p></td>
+<td><p>一般参加14人、学生13人</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference external" href="https://pyconjp.connpass.com/event/89445/" rel="noreferrer" target="_blank">茨城</a></p></td>
+<td><p>一般参加14人、学生21人</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference external" href="https://pyconjp.connpass.com/event/87968/" rel="noreferrer" target="_blank">徳島</a></p></td>
+<td><p>一般参加13人、学生2人</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference external" href="https://pyconjp.connpass.com/event/94170/" rel="noreferrer" target="_blank">京都</a></p></td>
+<td><p>一般参加15人、学生7人</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference external" href="https://pyconjp.connpass.com/event/89157/" rel="noreferrer" target="_blank">山形</a></p></td>
+<td><p>一般参加10人、学生6人</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference external" href="https://pyconjp.connpass.com/event/103507/" rel="noreferrer" target="_blank">山梨</a></p></td>
+<td><p>一般参加8人、学生9人</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference external" href="https://pyconjp.connpass.com/event/103539/" rel="noreferrer" target="_blank">岡山</a></p></td>
+<td><p>一般参加13人、学生5人</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference external" href="https://pyconjp.connpass.com/event/104080/" rel="noreferrer" target="_blank">仙台</a></p></td>
+<td><p>一般参加17人、学生5人</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference external" href="https://pyconjp.connpass.com/event/106920/" rel="noreferrer" target="_blank">静岡県藤枝市</a></p></td>
+<td><p>一般参加20人、学生5人</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference external" href="https://pyconjp.connpass.com/event/120116/" rel="noreferrer" target="_blank">和歌山</a></p></td>
+<td><p>一般参加15人、学生1人</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference external" href="https://pyconjp.connpass.com/event/119978/" rel="noreferrer" target="_blank">福井</a></p></td>
+<td><p>一般参加8人、学生4人</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference external" href="https://pyconjp.connpass.com/event/130348/" rel="noreferrer" target="_blank">山形市</a></p></td>
+<td><p>一般参加12人、学生0人</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference external" href="https://pyconjp.connpass.com/event/134229/" rel="noreferrer" target="_blank">岐阜</a></p></td>
+<td><p>一般参加17人、学生0人</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference external" href="https://pyconjp.connpass.com/event/139247/" rel="noreferrer" target="_blank">沖縄</a></p></td>
+<td><p>一般参加10人、学生1人</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference external" href="https://pyconjp.connpass.com/event/143287/" rel="noreferrer" target="_blank">高知</a></p></td>
+<td><p>一般参加14人、学生9人</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference external" href="https://pyconjp.connpass.com/event/143290/" rel="noreferrer" target="_blank">群馬</a></p></td>
+<td><p>一般参加5人、学生3人</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference external" href="https://pyconjp.connpass.com/event/143786/" rel="noreferrer" target="_blank">福岡2nd</a></p></td>
+<td><p>一般参加13人、学生5人</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference external" href="https://pyconjp.connpass.com/event/143197/" rel="noreferrer" target="_blank">熊本2nd</a></p></td>
+<td><p>一般参加15人、学生0人</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference external" href="https://pyconjp.connpass.com/event/158803/" rel="noreferrer" target="_blank">長崎</a></p></td>
+<td><p>一般参加15人、学生3人</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference external" href="https://pyconjp.connpass.com/event/205993/" rel="noreferrer" target="_blank">山口</a></p></td>
+<td><p>一般参加6人、学生0人</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference external" href="https://pyconjp.connpass.com/event/244411/" rel="noreferrer" target="_blank">佐賀</a></p></td>
+<td><p>一般参加10人、学生6人</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference external" href="https://pyconjp.connpass.com/event/248048/" rel="noreferrer" target="_blank">広島2nd</a></p></td>
+<td><p>一般参加3人、学生9人</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference external" href="https://pyconjp.connpass.com/event/251468/" rel="noreferrer" target="_blank">静岡県沼津市</a></p></td>
+<td><p>一般参加8人、学生3人</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference external" href="https://pyconjp.connpass.com/event/255600/" rel="noreferrer" target="_blank">新潟2nd</a></p></td>
+<td><p>一般参加10人、学生5人</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference external" href="https://pyconjp.connpass.com/event/261760/" rel="noreferrer" target="_blank">香川2nd</a></p></td>
+<td><p>一般参加9人、学生3人</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference external" href="https://pyconjp.connpass.com/event/278007/" rel="noreferrer" target="_blank">鹿児島2nd</a></p></td>
+<td><p>一般参加7人、学生9人</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference external" href="https://pyconjp.connpass.com/event/286959/" rel="noreferrer" target="_blank">愛知Re:2nd</a></p></td>
+<td><p>一般参加8人、学生2人</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference external" href="https://pyconjp.connpass.com/event/287004/" rel="noreferrer" target="_blank">富山県富山市</a></p></td>
+<td><p>一般参加5人、学生4人</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference external" href="https://pyconjp.connpass.com/event/293032/" rel="noreferrer" target="_blank">徳島2nd</a></p></td>
+<td><p>一般参加11人、学生0人</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference external" href="https://pyconjp.connpass.com/event/317828/" rel="noreferrer" target="_blank">札幌 2nd</a></p></td>
+<td><p>一般参加3人、学生1人</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference external" href="https://pyconjp.connpass.com/event/318286/" rel="noreferrer" target="_blank">愛知3rd</a></p></td>
+<td><p>一般参加3人、学生0人</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference external" href="https://pyconjp.connpass.com/event/317636/" rel="noreferrer" target="_blank">山形3rd (&#64;産業技術短大庄内校)</a></p></td>
+<td><p>一般参加3人、学生1人</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference external" href="https://pyconjp.connpass.com/event/327156/" rel="noreferrer" target="_blank">宮崎</a></p></td>
+<td><p>一般参加7人、学生0人</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference external" href="https://pyconjp.connpass.com/event/334755/" rel="noreferrer" target="_blank">鹿児島 3rd</a></p></td>
+<td><p>一般参加3人、学生3人</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference external" href="https://pyconjp.connpass.com/event/376015/" rel="noreferrer" target="_blank">北九州</a></p></td>
+<td><p>一般参加10人、学生1人</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+
+
+          </div>
+          
+      </div>
+      <div class="clearer"></div>
+    </div>
+  <div class="footer">
+    &copy;2022, PyCon JP Committee.
+    <br>
+    This site is licensed under a <a href="http://creativecommons.org/licenses/by/4.0/" rel="noopener noreferrer" target="_blank">Creative Commons Attribution 4.0 International License</a>.
+  </div>
+
+  </body>
+</html>

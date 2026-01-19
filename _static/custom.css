@@ -1,0 +1,8 @@
+.sd-btn {
+  background-color: #4EBBE2;
+  color: #fff;
+}
+
+.sd-btn:hover, .sd-btn:focus {
+  opacity: .8;
+}
